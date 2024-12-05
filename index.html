@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário de Validação JS</title>
+    <link rel="stylesheet" href="./main.css" />
+</head>
+<body>
+    <div class="container">
+        <h1>Exercicio HTML com JS</h1>
+        <br><h4>Preencha os campos abaixo para validar suas informações</h4></br>
+        <form id="valid-form">
+            <input type="number" id="campoA" required placeholder="ex.: 1" />
+            <input type="number" id="campoB" required placeholder="ex.: 3" />
+            <p class="error-message">O valor B deve ser maior que o valor A </p>
+            <p class="success-message">Enviado com sucesso.</p>
+            <button id="btn-enviar" type="submit">Enviar</button>
+        </form>
+    </div>
+    <p class="success-message"></p>
+    <script src="./main.js"></script>
+</body>
+</html>
